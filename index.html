@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <title>Frontend Mentor | Article preview component</title>
@@ -34,9 +34,22 @@
           <a href="#"><p>Michelle Appleton</p></a>
           <p>28 Jun 2020</p>
         </div>
-        <div class="share"> 
-          <img src="./src/images/icon-share.svg" alt="Share" title="Share">
-           
+        <div class="share-window" id="share-Window">
+            
+          <p>SHARE</p>
+
+          <a href="#"><img src="./src/images/icon-facebook.svg" alt=""></a>
+          <a href="#"><img src="./src/images/icon-twitter.svg" alt=""></a>
+          <a href="#"><img src="./src/images/icon-pinterest.svg" alt=""></a>
+          <div></div>
+          
+        </div>
+        <div class="share" id="share"> 
+          
+
+
+          <i class="share-icon"></i>
+
           
 
         </div>
@@ -50,7 +63,7 @@
   
   
 
-  
+  <script src="./src/JS/index.js"></script>
   
   <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
